@@ -1,10 +1,6 @@
 <%= render_aspace_partial :partial => "sub_containers/template" %>
 
-<div id="template_instance_summary"><!--
-  <div class="subrecord-summary-title">
-    {if instance_type != ""}${instance_type}{else}____{/if}
-  </div>
---></div>
+<div id="template_instance_summary"></div>
 
 <% define_template "instance_container", jsonmodel_definition(:instance) do |form| %>
   <div class="subrecord-form-fields">
